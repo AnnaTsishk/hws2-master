@@ -1,20 +1,37 @@
 .input:focus {
+    outline: none;
+    border: firebrick solid 2px;
 }
 
 .input {
-}
+
+ }
+
 
 .inputWrapper {
+    margin: 10px;
+    background: orange;
+    color:black ;
 }
 
 .superInput {
+    margin: 10px;
+    background: #bbfbbc;
+    color:black ;
 }
 
 .errorInput {
+    margin: 10px;
+    background: #bbfbbc;
+    color: red;
+    border: 2px solid palevioletred;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    color: crimson;
+    height: 21px;
+    margin-left: 10px;
 }

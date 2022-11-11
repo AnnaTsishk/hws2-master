@@ -1,36 +1,67 @@
 .button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    color: yellowgreen;
 }
 
 .disabled {
+    color: navajowhite;
 }
 
 .secondary {
+    color: yellow;
 }
 
 .default {
+    background: greenyellow;
+    color: darkgreen;
+    outline: #bbfbbc;
 }
 
 .red {
+    background: #440044;
 }
 
 .default:hover {
+    color: plum;
 }
 
 .red:hover {
 }
 
 .secondary:hover {
+    color: #004444;
 }
 
 
 .default:active {
+    color: #0066cc;
 }
 
 .secondary:active {
+    color: #006600;
 }
 
 .red:active {
+    background: red;
 }
 
 .button:disabled {
+
+}
+
+.button::after{
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -130%;
+    top: 0;
+    height: 100%;
+    width: 20%;
+
+    transform: skew(45deg);
+
 }
