@@ -7,6 +7,7 @@ import HW4 from "../s2-homeworks/hw04/HW4";
 import HW1 from "../s2-homeworks/hw01/HW1";
 import HW5 from "../s2-homeworks/hw05/HW5";
 
+
 function App() {
     return (
         <div className={s.App}>
@@ -19,6 +20,7 @@ function App() {
 
             {/*при выполнении дз 5 и более - закомментировать здесь дз 1-4, так как они есть внутри дз 5*/}
             <HW5/>
+
         </div>
     )
 }

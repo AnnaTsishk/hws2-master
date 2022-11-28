@@ -8,8 +8,13 @@
 
     /*transition-duration: 500ms;*/
     /*transform: translate(-280px) ;*/
-
 }
+.header:hover{
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+
 
 .header h1 {
 }
@@ -19,12 +24,4 @@
     height: 21px;
     margin: 10px;
     background: palevioletred;
-}
-.link{
-    text-decoration: none;
-    color: greenyellow;
-    margin: 10px;
-}
-.link:hover{
-    color: #004444;
 }

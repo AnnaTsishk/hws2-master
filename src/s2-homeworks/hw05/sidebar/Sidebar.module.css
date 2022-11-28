@@ -1,25 +1,50 @@
 .sidebar {
+    color: #bbfbbc;
 }
 
 .sidebar.open {
+    color: green;
 }
 
 .background {
+    color: #00cc22;
 }
 
 .nav {
+    color: #0066cc;
 }
 
 .nav a {
+    color: fuchsia;
 }
 
 .nav a:hover {
+    color: #bbfbbc;
 }
 
 .nav a.active {
+    color:aqua;
 }
 .close {
+    color: #bbfbbc;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
 }
 
-.close img {
+/*.close img {*/
+/*    color: palevioletred;*/
+
+/*}*/
+
+.link{
+    text-decoration: none;
+    color: greenyellow;
+    margin: 10px;
 }
+.link:hover{
+    color: #004444;
+}
+/*.active {*/
+/*    color: aqua;*/
+/*}*/
