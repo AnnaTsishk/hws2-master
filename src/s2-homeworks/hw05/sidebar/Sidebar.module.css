@@ -20,7 +20,7 @@
 
 .nav a {
     color: fuchsia;
-    text-decoration: none;
+
 }
 
 .nav a:hover {
@@ -30,9 +30,7 @@
 .nav a.active {
     color:aqua;
 }
-.inactive{
-    color: #000;
-}
+
 .close {
     color: #bbfbbc;
     width: 40px;
