@@ -1,5 +1,6 @@
 .sidebar {
     color: #bbfbbc;
+
 }
 
 .sidebar.open {
@@ -11,11 +12,15 @@
 }
 
 .nav {
-    color: #0066cc;
+    text-decoration: none;
+    color: greenyellow;
+    margin: 10px;
 }
+
 
 .nav a {
     color: fuchsia;
+    text-decoration: none;
 }
 
 .nav a:hover {
@@ -25,6 +30,9 @@
 .nav a.active {
     color:aqua;
 }
+.inactive{
+    color: #000;
+}
 .close {
     color: #bbfbbc;
     width: 40px;
@@ -32,19 +40,10 @@
     border-radius: 10px;
 }
 
-/*.close img {*/
-/*    color: palevioletred;*/
+.close img {
+    color: palevioletred;
 
-/*}*/
+}
 
-.link{
-    text-decoration: none;
-    color: greenyellow;
-    margin: 10px;
-}
-.link:hover{
-    color: #004444;
-}
-/*.active {*/
-/*    color: aqua;*/
-/*}*/
+
+
