@@ -1,11 +1,19 @@
 .spanBlock {
+    color: #cc0000;
 }
 
 .span {
+    display: inline-block;
+    height: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: lightseagreen;
 }
 
 .input {
+    color:lightgreen;
 }
 
 .pen {
+    color: rosybrown;
 }

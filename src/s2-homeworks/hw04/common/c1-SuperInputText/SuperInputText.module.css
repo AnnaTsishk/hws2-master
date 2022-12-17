@@ -4,13 +4,17 @@
 }
 
 .input {
-
+    width: fit-content;
+    margin: 10px;
+    background: aqua;
+    color:black ;
  }
 
 
 .inputWrapper {
+    width: fit-content;
     margin: 10px;
-    background: orange;
+    background: aqua;
     color:black ;
 }
 
@@ -28,6 +32,7 @@
 }
 
 .errorInput:focus {
+    color: yellow;
 }
 
 .error {

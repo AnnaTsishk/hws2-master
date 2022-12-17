@@ -7,11 +7,11 @@
 }
 
 .disabled {
-    color: navajowhite;
+    color: rebeccapurple;
 }
 
 .secondary {
-    color: yellow;
+    color: red;
 }
 
 .default {
@@ -29,6 +29,7 @@
 }
 
 .red:hover {
+    color: aqua;
 }
 
 .secondary:hover {
@@ -49,7 +50,7 @@
 }
 
 .button:disabled {
-
+    color: green;
 }
 
 .button::after{

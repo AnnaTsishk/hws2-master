@@ -1,23 +1,37 @@
 .item {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 10px;
+    color: darkblue;
 }
 
 .item:last-of-type {
+    color: dodgerblue;
 }
 
 .users {
+    color: #cc0000;
 }
 
 .buttonsContainer {
+
+    color: blueviolet;
+
 }
 
 .container {
+    color: lightseagreen;
 }
 
 .thead {
+    color: lightgreen;
 }
 
 .nameCol {
+    color: palevioletred;
 }
 
 .ageCol {
+    color: deepskyblue;
 }

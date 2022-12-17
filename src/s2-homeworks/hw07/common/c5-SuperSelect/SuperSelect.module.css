@@ -1,9 +1,22 @@
 .select {
-}
+    width: 100px;
+    padding: 6px;
+    padding-right: 50px;
+    background-color: lavender;
+    cursor: pointer;
+    color:darkslateblue;
+  }
 
 .select:focus {
+    color:red;
+    border: blueviolet solid 2px;
 }
 
 
 .option:hover {
+   color:blueviolet;
 }
+.option:checked{
+    color:blue;
+}
+

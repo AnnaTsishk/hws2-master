@@ -1,15 +1,22 @@
 .radio {
-}
 
+}
+.radio:hover{
+    border: 2px solid #cc0000;
+}
 .radio::before {
+    color: yellow;
 }
 
 
 .radio:checked::before {
+    color: #00cc22;
 }
 
 .label {
+    color: darkblue;
 }
 
 .options {
+    color: lightseagreen;
 }
