@@ -1,8 +1,17 @@
 .container {
+    padding: 15px;
 }
 
 .wrapper {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
 }
 
 .number {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
